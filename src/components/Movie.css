@@ -1,0 +1,85 @@
+.movie{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.m-container{
+    padding: 10px;
+}
+
+.m-img{
+    height: 40%;
+    width: 30%;
+}
+
+.m-name{
+    color: rgb(39, 88, 235);
+    font-size: 50px;
+    font-weight: 800;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.m-container ol{
+    font-size: 16px;
+    color: rgb(185, 187, 195);
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.m-container li{
+    margin: 5px 0px;
+    list-style: none;
+}
+
+.m-star{
+    color: rgb(39, 88, 235);
+}
+
+.time{
+    color:rgb(39, 88, 235);
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.m-desc{
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.m-button{
+    color:rgb(39, 88, 235);
+    font-size: 25px;
+    font-weight: 800;
+    padding: 10px;
+    border: 2px solid rgb(39, 88, 235);
+    margin-top: 30px;
+}
+
+@media screen and (max-width:800px){
+    .m-img{
+        height: 50%;
+        width: 40%;
+    }
+    .m-name{
+        font-size: 30px;
+    }
+    .time{
+        font-size: 25px;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+label{
+    color: white;
+    margin-top: 20px;
+}
+
+input{
+    height: 30px;
+    color: white;
+    border: 2px solid rgb(39, 88, 235);
+}
+
+.form-button{
+    margin-top: 20px;
+    padding: 10px;
+    width: max-content;
+    color: rgb(39, 88, 235);
+    border: 2px solid rgb(39, 88, 235);
+    font-size: 20px;
+}
